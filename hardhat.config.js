@@ -8,16 +8,16 @@ const { RPC_URL, POLYGONSCAN_KEY, MNEMONIC } = process.env;
 
 module.exports = {
   networks: {
-    polygon: {
-      url: RPC_URL,
-      accounts: { mnemonic: MNEMONIC },
-      chainId: 137,
-    },
-    mumbai: {
-      url: RPC_URL,
-      accounts: { mnemonic: MNEMONIC },
-      chainId: 80001,
-    },
+    // polygon: {
+    //   url: RPC_URL,
+    //   accounts: { mnemonic: MNEMONIC },
+    //   chainId: 137,
+    // },
+    // mumbai: {
+    //   url: RPC_URL,
+    //   accounts: { mnemonic: MNEMONIC },
+    //   chainId: 80001,
+    // },
   },
   solidity: {
     version: '0.8.18',
